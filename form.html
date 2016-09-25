@@ -1,0 +1,78 @@
+<html>
+   <head>
+   <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+  
+
+      <div id="Success" style="display:none">Thanks for submitting the form</div>
+      <div class="container-fluid">
+      <div class="navbar-header">
+         <h1>Online Empower RDD incident report:</h1>
+         <div class="container">
+  <h2>Basic Form</h2>
+  <form>
+   <form id="bugForm" action="" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+
+   
+   
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <input type="description" class="form-control" id="description" placeholder="Enter a short description about the problem">
+    </div>
+    <div class="form-group">
+      <label for="screenshot">Screenshot:</label>
+      <input type="screenshot" class="form-control" id="screenshot">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+  </form>
+</div>
+
+          
+      
+
+     
+         <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" />
+            <br />
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" placeholder="Enter a short description about yourself"></textarea>
+            <br />
+            <label for="profilepic">ScreenShot:</label>
+            <input type="file" id="profilepic" name="profilepic" />
+            <br />
+            <input type="submit" value="Create Incident" />
+         </fieldset>
+      </form>
+      </div>
+   </body>
+   <script>
+      if (window.location.search.indexOf('Success') !== -1) {
+      document.getElementById('Success').style.display='block';
+      document.getElementById('bugForm').style.display='none';
+      }
+   </script>
+</html>

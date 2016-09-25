@@ -1,0 +1,22 @@
+{
+  "name": "forms-in-nodejs",
+  "version": "1.0.0",
+  "description": "How to use nodejs forms",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abbassoftware/forms-in-nodejs/issues"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "marcelo",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.0.17"
+  }
+}

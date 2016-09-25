@@ -1,0 +1,98 @@
+[
+  {
+    "fields": {
+      "name": "marcelo",
+      "email": "marcelo.gobelli@gmail.com",
+      "description": "I am having an issue"
+    },
+    "files": {
+      "profilepic": {
+        "size": 0,
+        "path": "/tmp/upload_ef9a46c5a1bf63799673952585ca39ed",
+        "name": "",
+        "type": "application/octet-stream",
+        "mtime": null
+      }
+    }
+  },
+  {
+    "fields": {
+      "name": "marcelo",
+      "email": "marcelo.gobelli@gmail.com",
+      "description": "I am having an issue"
+    },
+    "files": {
+      "profilepic": {
+        "size": 0,
+        "path": "/tmp/upload_d36c78b131377ec1d73d6026a571ee41",
+        "name": "",
+        "type": "application/octet-stream",
+        "mtime": null
+      }
+    }
+  },
+  {
+    "fields": {
+      "name": "marcelo",
+      "email": "marcelo.gobelli@gmail.com",
+      "description": "I am having an issue"
+    },
+    "files": {
+      "profilepic": {
+        "size": 725,
+        "path": "/tmp/upload_425033cad4f65fa853459c89d6d9a694",
+        "name": "cookie.feature",
+        "type": "application/octet-stream",
+        "mtime": "2016-09-24T21:03:14.119Z"
+      }
+    }
+  },
+  {
+    "fields": {
+      "name": "thomas",
+      "email": "thomas@isp.net",
+      "description": "another problem"
+    },
+    "files": {
+      "profilepic": {
+        "size": 44411,
+        "path": "/tmp/upload_1652f5897d7ac2e5c53585c68d114063",
+        "name": "impossibly-cute-puppy-8.jpg",
+        "type": "image/jpeg",
+        "mtime": "2016-09-24T21:20:20.067Z"
+      }
+    }
+  },
+  {
+    "fields": {
+      "name": "mark",
+      "email": "mark@ssp.net",
+      "description": "I have a problem"
+    },
+    "files": {
+      "profilepic": {
+        "size": 0,
+        "path": "/tmp/upload_34499dc76a9da3045fb365dbf43cf5d6",
+        "name": "",
+        "type": "application/octet-stream",
+        "mtime": null
+      }
+    }
+  },
+  {
+    "fields": {
+      "name": "mark",
+      "email": "",
+      "description": "jdl;kajdjl;"
+    },
+    "files": {
+      "profilepic": {
+        "size": 0,
+        "path": "/tmp/upload_fff8fac7fe6a0250d751bd3c38d2b057",
+        "name": "",
+        "type": "application/octet-stream",
+        "mtime": null
+      }
+    }
+  }
+]
