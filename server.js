@@ -27,6 +27,7 @@ function processAllFieldsOfTheForm(req, res) {
     var form = new formidable.IncomingForm();        
 
     form.parse(req, function (err, fields, files) {
+    	console.log(fields)
     	console.log(files)
     	if (files.profilepic.name) {
     		var source = fs.createReadStream(files.profilepic.path);

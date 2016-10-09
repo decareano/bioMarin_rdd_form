@@ -13,66 +13,51 @@
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    </head>
    <body>
-  
+       <div class="container-fluid">
+       <div class="navbar-header">
+            <h1>Online Empower RDD incident report:</h1>
+       <div id="Success" style="display:none">Thanks for submitting the form</div>
 
-      <div id="Success" style="display:none">Thanks for submitting the form</div>
-      <div class="container-fluid">
-      <div class="navbar-header">
-         <h1>Online Empower RDD incident report:</h1>
-         <div class="container">
-  <h2>Basic Form</h2>
-  <form>
-   <form id="bugForm" action="" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-      <label for="name">Name:</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter your name">
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter your email">
-    </div>
-
-   
-   
-    <div class="form-group">
-      <label for="description">Description:</label>
-      <input type="description" class="form-control" id="description" placeholder="Enter a short description about the problem">
-    </div>
-    <div class="form-group">
-      <label for="screenshot">Screenshot:</label>
-      <input type="screenshot" class="form-control" id="screenshot">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-
-  </form>
-</div>
-
-          
-      
-
-     
+       <form id="bugForm" action="" method="post" enctype="multipart/form-data">
          <fieldset>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+            <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="name" class="form-control" name="Name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" name="Email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                  <label for="description">Description:</label>
+                  <input type="description" class="form-control" name="Description" placeholder="Enter a short description about the problem">
+            </div>
+            
+            <div>
+                  <label for="profilepic">Add a Screenshot:</label>
+                  <input type="file" name="profilepic" id="profilepic">
+            </div>
             <br />
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email address" />
-            <br />
-            <label for="description">Description:</label>
-            <textarea id="description" name="description" placeholder="Enter a short description about yourself"></textarea>
-            <br />
-            <label for="profilepic">ScreenShot:</label>
-            <input type="file" id="profilepic" name="profilepic" />
-            <br />
-            <input type="submit" value="Create Incident" />
+            <input type="submit" class="btn btn-primary" value="Submit"/>
          </fieldset>
       </form>
       </div>
+      
    </body>
    <script>
       if (window.location.search.indexOf('Success') !== -1) {
-      document.getElementById('Success').style.display='block';
+      document.getElementById('Success').style.display='block'; 
       document.getElementById('bugForm').style.display='none';
+      setTimeout(myFunction, 5000);
+      //document.getElementById('bugForm').style.display='block';
+      //document.getElementById('bugForm').style.display='block';
       }
+      function myFunction() {
+        document.getElementById('Success').style.display='none';
+        document.getElementById('bugForm').style.display='block';
+      }
+
    </script>
 </html>
